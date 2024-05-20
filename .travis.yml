@@ -13,11 +13,10 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "frontend"
-  env: 'Frontend-env"
+  env: "Frontend-env"
   bucket_name: "elasticbeanstalk-us-east-2-211125384917"
   bucket_path: "frontend_path"
   on:
     branch: master
   access_key_id: "$AWS_ACCESS_KEY"
   secret_access_key: "$AWS_SECRET_KEY"
-  version_label: "travis-${TRAVIS_COMMIT}-${TRAVIS_BUILD_NUMBER}"
