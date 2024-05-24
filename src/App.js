@@ -7,7 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. Hi Dan, this is from App.js file from your local machine.!But the app is running inside a contianer! Intersting?!
+          Edit <code>src/App.js</code> and save to reload. Hi Dan, I chanegd the app.js on a feature branch and moved it through a PR in the git to the Master Branch!
+
         </p>
         <a
           className="App-link"
